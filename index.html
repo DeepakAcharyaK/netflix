@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>etflix India – Watch TV Shows Online, Watch Movies Online</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="body-conatiner box-border">
+        <div class="container1 w-[100%] h-screen box-border">
+          <div class="home-container h-full w-full bg-center bg-cover" style="background-image: url('./assets/bg.jpg');">
+            <div class="home w-full h-full bg-black bg-opacity-60 flex flex-col items-center justify-start">
+              <div class="nav-bar w-full h-14 flex items-center justify-center px-5 py-3">
+                <div class="nav w-full flex items-center justify-between">
+                  <img src="./assets/netflix.png" alt="Netflix" class="h-full w-28 lg:w-36"/>
+                  <div class="menu ">
+                    <select class="login hidden w-24 p-2 border border-gray-400 rounded bg-black bg-opacity-40 text-white lg:inline-block">
+                      <option value="">English</option>
+                      <option value="">Hindi</option>
+                    </select>
+                    <button class="login w-24 p-2 border border-gray-400 rounded bg-black bg-opacity-40 text-white">Sign In</button>
+                  </div>
+                </div>
+              </div>
+              <div class="head w-full h-full flex justify-center items-center">
+                <div class="head-container flex flex-col gap-5 text-center p-3">
+                  <h1 class="text-4xl font-bold text-white lg:text-6xl">Unlimited movies, TV shows and more</h1>
+                  <h2 class="text-xl text-gray-400 lg:text-2xl">Watch anywhere.</h2>
+                  <h2 class="text-xl text-gray-400 lg:text-2xl">Cancel anytime.Ready to watch? Enter your email to create or restart your membership.</h2>
+                  <div class="mail">
+                    <input type="email" name="email" id="email" placeholder="Email address" class="lg:w-48 h-10 w-44 px-3 border bg-black bg-opacity-60 text-white border-gray-500 rounded-sm "/>
+                    <button class="bg-red-600 p-2 rounded-sm font-bold text-white cursor-pointer">Get Started</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <div class="container2 h-full w-full bg-black text-white">
+          <div class="card w-full border-t-2 border-gray-700 p-5 text-center">
+            <div class="card-text p-3">
+              <h1 class="mb-3 text-3xl font-bold">Enjoy on your TV</h1>
+              <p>
+                Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray
+                players and more.
+              </p>
+            </div>
+            <div class="card-img relative flex h-80 flex-col items-center justify-center">
+                <video class="h-auto w-72" src="./assets/tv.m4v"autoplay loop></video>
+                <img src="./assets/tv.png" alt="tv" class="absolute h-full"/>
+            </div>
+          </div>
+
+          <div class="card w-full border-t-2 border-gray-700 p-5 text-center">
+            <div class="card-text p-3">
+              <h1 class="mb-3 text-3xl font-bold selection:bg-white selection:text-red-600">
+                Download your shows to watch offline
+              </h1>
+              <p class="selection:bg-white selection:text-red-600">
+                Save your favourites easily and always have something to watch.
+              </p>
+            </div>
+            <div class="card-img relative flex h-80 flex-col items-center justify-center">
+              <img src="./assets/mobile.jpg" alt="mobile" class="h-full"/>
+              <div class="download absolute bottom-0 flex h-20 w-64 items-center justify-center rounded-2xl border border-gray-600 bg-black p-2">
+                <img src="./assets/boxshot.png" alt="" class="h-16 w-5 flex-grow"/>
+                <div class="d-text flex flex-grow flex-col items-center justify-center text-sm">
+                  <h1>
+                    Stranger <br/>
+                    Things
+                  </h1>
+                  <p class="text-blue-600">Downloading</p>
+                </div>
+                <img src="./assets/download-icon.gif" alt="" class="flex-grow w-11 h-16"">
+              </div>
+            </div>
+          </div>
+      
+          <div class="card flex h-[500px] flex-col items-center justify-center border-t-2 border-gray-700 p-5 text-center">
+            <div class="card-text p-3">
+              <h1 class="mb-3 text-3xl font-bold">Create profiles for kids</h1>
+              <p>
+                Send children on adventures with their favourite characters in a space
+                made just for them—free with your membership.
+              </p>
+            </div>
+            <div class="card-img relative flex h-96 w-full flex-col items-center justify-center py-10">
+              <img src="./assets/child.png" alt="" class="flex-grow-1 absolute h-full object-cover object-center"/>
+            </div>
+          </div>
+      
+          <div class="question flex flex-col items-center justify-center gap-3 border-t-2 border-gray-700 p-5 lg:px-52">
+            <h1 class="mb-3 text-center text-3xl font-extrabold">
+              Frequently Asked Questions
+            </h1>
+            <div class="q flex h-11 w-full items-center justify-between p-5" style="background-color: #2D2D2D;">
+              <h1>What is Netflix?</h1>
+              <i class="fa-solid fa-plus" style="color: #ffffff"></i>
+            </div>
+            <div class="q flex h-11 w-full items-center justify-between p-5" style="background-color: #2D2D2D;">
+              <h1>How much does Netflix cost?</h1>
+              <i class="fa-solid fa-plus" style="color: #ffffff"></i>
+            </div>
+            <div class="q flex h-11 w-full items-center justify-between p-5" style="background-color: #2D2D2D;">
+              <h1>Where can I watch?</h1>
+              <i class="fa-solid fa-plus" style="color: #ffffff"></i>
+            </div>
+            <div class="q flex h-11 w-full items-center justify-between p-5" style="background-color: #2D2D2D;">
+              <h1>How do I cancel?</h1>
+              <i class="fa-solid fa-plus" style="color: #ffffff"></i>
+            </div>
+            <div class="q flex h-11 w-full items-center justify-between p-5" style="background-color: #2D2D2D;">
+              <h1>What can I watch on Netflix?</h1>
+              <i class="fa-solid fa-plus" style="color: #ffffff"></i>
+            </div>
+            <div class="q flex h-11 w-full items-center justify-between p-5" style="background-color: #2D2D2D;">
+              <h1>Is Netflix good for kids?</h1>
+              <i class="fa-solid fa-plus" style="color: #ffffff"></i>
+            </div>
+            <h2 class="m-5 text-center text-xl">
+              Ready to watch? Enter your email to create or restart your membership.
+            </h2>
+            <div class="mail flex justify-center flex-wrap items-center flex-col sm:flex-row gap-3">
+                <input type="email" name="email" id="email" placeholder="Email address" class="h-10 w-52 px-3 border bg-black bg-opacity-60 text-white border-gray-500 rounded-sm"/>
+                <button class="bg-red-600 p-2 rounded-sm font-bold text-white cursor-pointer w-full sm:w-28">Get Started</button>
+              </div>
+          </div>
+      
+          <div class="foot bg-red p-5 border-t-2 border-gray-700 text-[12px] text-gray-400">
+            <p class="mb-8">Questions? Call 000-800-100-8343</p>
+            <div class="foot-container flex flex-wrap list-none list-inside gap-5 justify-start items-center lg:justify-center">
+            <ul class="flex-grow-1">
+              <li>FAQ</li>
+              <li>Help Centre</li>
+              <li>Account</li>
+              <li>Media</li>
+            </ul>
+            <ul class="flex-grow-1">
+              <li>Centre</li>
+              <li>Investor Relations</li>
+              <li>Jobs</li>
+              <li>Ways to Watch</li>
+            </ul>
+            <ul class="flex-grow-1">
+              <li>Terms of Use</li>
+              <li>Privacy</li>
+              <li>Cookie Preferences</li>
+              <li>Corporate Information</li>
+            </ul>
+            <ul class="flex-grow-1">
+              <li>Contact Us</li>
+              <li>Speed Test</li>
+              <li>Legal Notices</li>
+              <li>Only on Netflix</li>
+            </ul>
+            </div>
+            <p class=" mt-8">Netflix India</p>
+          </div>
+
+        </div>
+      </div>
+</body>
+</html>
